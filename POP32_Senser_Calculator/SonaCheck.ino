@@ -4,7 +4,7 @@ void sona()
   {
     if (SW_A())
     {
-    oled.text(0,1,"%d",analog(6));
+    oled.text(0,0,"%d",analog(6));
     oled.show();
     delay(250);
     oled.clear();
