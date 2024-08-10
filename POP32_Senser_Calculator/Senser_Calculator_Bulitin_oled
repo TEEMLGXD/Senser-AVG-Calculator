@@ -47,8 +47,7 @@ void check()
   }
   oled.show();
 }
-  oled.show();
-}
+
 
 void setup() 
 {
